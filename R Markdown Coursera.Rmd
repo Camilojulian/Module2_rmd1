@@ -88,5 +88,3 @@ Here is an example of code in a blockquote:
 >     2+2
 >     mean(c(1,2,3,4,5))
 
-
-
