@@ -1,0 +1,37 @@
+---
+title: "Module2 - ioslides - add more text"
+author: "Julián-Caballero, C. Camilo. M. Sc."
+date: "14 de febrero de 2000"
+output:
+  beamer_presentation: default
+  ioslides_presentation: default
+---
+
+## Slide with Plot
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+## A slide with a table
+
+```{r}
+knitr::kable(head(cars), caption = "Top 6 Rows of Cars Dataset")
+```
+
+## A slide with an equation
+
+A simple linear regression equation
+
+$$ Y  = \beta_0 + \beta_1x $$
+
+## A slide with 2 columns {.columns-2}
+
+![](sunstar.png)
+
+- bullet 1
+- bullet 2
+- bullet 3
+
+
+
